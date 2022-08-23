@@ -12,7 +12,6 @@ import javax.persistence.Entity;
 @Setter
 @Getter
 @NoArgsConstructor
-@AllArgsConstructor
 public class Client extends Utilisateur{
     private String numeroDeTelephone;
 }

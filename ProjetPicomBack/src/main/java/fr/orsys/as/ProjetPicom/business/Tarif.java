@@ -16,7 +16,6 @@ import javax.persistence.ManyToOne;
 @Setter
 @Getter
 @NoArgsConstructor
-@AllArgsConstructor
 public class Tarif {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

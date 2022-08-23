@@ -13,7 +13,6 @@ import javax.persistence.Entity;
 @Setter
 @Getter
 @NoArgsConstructor
-@AllArgsConstructor
 public class Administrateur extends Utilisateur{
 
 }

@@ -29,4 +29,5 @@ public class Annonce {
     private double montantRegleEnEuros;
     @OneToMany(mappedBy = "annonce", cascade = CascadeType.REMOVE)
     private List<Zone> zones;
+
 }

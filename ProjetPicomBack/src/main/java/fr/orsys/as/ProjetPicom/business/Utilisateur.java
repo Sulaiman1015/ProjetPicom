@@ -17,7 +17,6 @@ import javax.persistence.ManyToOne;
 @Setter
 @Getter
 @NoArgsConstructor
-@AllArgsConstructor
 public abstract class Utilisateur {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
