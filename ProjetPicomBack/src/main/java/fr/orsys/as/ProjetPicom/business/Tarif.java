@@ -25,4 +25,6 @@ public class Tarif {
     private Administrateur administrateur;
     @ManyToOne
     private TrancheHoraire trancheHoraire;
+    @ManyToOne
+    private Zone zone;
 }

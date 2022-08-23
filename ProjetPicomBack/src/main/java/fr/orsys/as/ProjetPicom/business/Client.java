@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.Entity;
+import java.util.List;
 
 @Entity
 @Setter
@@ -14,4 +15,5 @@ import javax.persistence.Entity;
 @NoArgsConstructor
 public class Client extends Utilisateur{
     private String numeroDeTelephone;
+    private List<Annonce> annonces;
 }
