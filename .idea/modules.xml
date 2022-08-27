@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ProjectPicomFront/ProjectPicomFront.iml" filepath="$PROJECT_DIR$/ProjectPicomFront/ProjectPicomFront.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProjetPicom.iml" filepath="$PROJECT_DIR$/ProjetPicom.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProjetPicomBack/ProjetPicomBack.iml" filepath="$PROJECT_DIR$/ProjetPicomBack/ProjetPicomBack.iml" />
     </modules>
