@@ -1,0 +1,37 @@
+.form{
+  margin: auto;
+  position: absolute;
+  top: 50px;
+  left: 40%;
+  right: 0;
+  bottom: 0;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login {
+  text-align: left;
+  margin: auto;
+}
+
+.login ul li input[type=email],
+.login ul li input[type=password] {
+  font-size: 16px;
+  margin: auto;
+}
+
+.login ul li input {
+  width: 275px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.login ul li input[type=submit] {
+  width: 285px;
+  height: 40px;
+}

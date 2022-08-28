@@ -1,1 +1,17 @@
-<p>login works!</p>
+<div class="form">
+  <form class="login" >
+    <h2>S'Authentifier </h2>
+    <ul class="form-group">
+      <li>
+        Adresse Email:<br>
+        <input type="email" class="form-control" name="email" id="email" >
+      </li>
+      <li>
+        Mot De Passe:<br>
+        <input type="password" class="form-control" name="password" id="password" >
+      </li>
+      <li><input type="submit" class="btn btn-primary" value="S'authentifier"></li>
+      <li>Pas de compte? <a [routerLink]="['/register']">Inscrirez vous!</a></li>
+    </ul>
+  </form>
+</div>

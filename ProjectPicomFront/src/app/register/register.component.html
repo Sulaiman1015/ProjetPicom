@@ -1,1 +1,22 @@
-<p>register works!</p>
+<div class="form">
+  <form class="post">
+    <h2>S'inscrire</h2>
+    <ul>
+      <li>
+        Votre nom:<br>
+        <input type="text"></li>
+      <li>
+        Votre prenom:<br>
+        <input type="text"></li>
+      <li>
+        Votre email:<br>
+        <input type="email" required="required"></li>
+      <li>
+        Votre mot de passe:<br>
+        <input type="password" required="required"></li>
+      <li><input type="submit" value="S'identifier"></li>
+      <li>Déjà un compte？<a [routerLink]="['/register']">Authentifiez vous!</a>
+      </li>
+    </ul>
+  </form>
+</div>
