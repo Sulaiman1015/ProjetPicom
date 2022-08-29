@@ -1,21 +1,21 @@
 <div class="form">
-  <form class="post">
+  <form class="register" [formGroup]="registForm" (ngSubmit)="registSubmit()">
     <h2>S'inscrire</h2>
-    <ul>
+    <ul class="form-group">
       <li>
         Votre nom:<br>
-        <input type="text"></li>
+        <input type="text" class="form-control" formControlName="firstName"></li>
       <li>
         Votre prenom:<br>
-        <input type="text"></li>
+        <input type="text" class="form-control" formControlName="lastName"></li>
       <li>
         Votre email:<br>
-        <input type="email" required="required"></li>
+        <input type="email" class="form-control" formControlName="email" required></li>
       <li>
         Votre mot de passe:<br>
-        <input type="password" required="required"></li>
-      <li><input type="submit" value="S'identifier"></li>
-      <li>Déjà un compte？<a [routerLink]="['/register']">Authentifiez vous!</a>
+        <input type="password" class="form-control" formControlName="password" required=></li>
+      <li><input type="submit" class="btn btn-primary" value="S'identifier"></li>
+      <li>Déjà un compte？<a [routerLink]="['/login']">Authentifiez vous!</a>
       </li>
     </ul>
   </form>

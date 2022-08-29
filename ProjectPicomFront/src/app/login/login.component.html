@@ -1,16 +1,16 @@
 <div class="form">
-  <form class="login" >
+  <form class="login" [formGroup]="loginForm" (ngSubmit)="loginSubmit()">
     <h2>S'Authentifier </h2>
     <ul class="form-group">
       <li>
         Adresse Email:<br>
-        <input type="email" class="form-control" name="email" id="email" >
+        <input type="email" class="form-control" formControlName="username"/>
       </li>
       <li>
         Mot De Passe:<br>
-        <input type="password" class="form-control" name="password" id="password" >
+        <input type="password" class="form-control" formControlName="password"/>
       </li>
-      <li><input type="submit" class="btn btn-primary" value="S'authentifier"></li>
+      <li><input type="submit" class="btn btn-primary" value="S'authentifier"/></li>
       <li>Pas de compte? <a [routerLink]="['/register']">Inscrirez vous!</a></li>
     </ul>
   </form>
