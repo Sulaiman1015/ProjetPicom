@@ -14,7 +14,17 @@ public class AnnonceServiceImpl implements AnnonceService {
     private AnnonceDao annonceDao;
 
     @Override
+    public Annonce addAnnonce(Annonce annonce) {
+        return annonceDao.save(annonce);
+    }
+
+    @Override
     public List<Annonce> recupererAnnonces() {
         return annonceDao.findAll();
+    }
+
+    @Override
+    public List<Annonce> recupererAnnoncesClient(String clientId) {
+        return annonceDao.findByClientId(clientId);
     }
 }
